@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/settings_title_bg"
+        android:text="@string/basic_settings"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/settings_title_text_color" />
+
+    <CheckBox
+        android:id="@id/cb_immediateEffect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/immediate_effect" />
+
+    <CheckBox
+        android:id="@id/cb_recordLog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/record_log" />
+
+    <CheckBox
+        android:id="@id/cb_recordRuntimeLog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/record_runtime_log" />
+
+    <CheckBox
+        android:id="@id/cb_showToast"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/show_toast" />
+
+    <CheckBox
+        android:id="@id/cb_deleteStranger"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/delete_stranger" />
+
+    <Button
+        android:id="@id/btn_smallAccount"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/small_settings"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@id/btn_restartLockedScreen"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/restart_locked_screen"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@id/btn_restartUnlockedScreen"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/restart_unlocked_screen"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@id/btn_pin"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/pin"
+        android:textAllCaps="false" />
+
+    <CheckBox
+        android:id="@id/cb_autoRestart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/autoRestart" />
+
+    <CheckBox
+        android:id="@id/cb_sendBroadcast"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/send_broadcast" />
+
+    <Button
+        android:id="@id/btn_broadcastContent"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/broadcast_content"
+        android:textAllCaps="false" />
+
+    <CheckBox
+        android:id="@id/cb_originalMode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/original_mode" />
+
+    <CheckBox
+        android:id="@id/cb_stayAwake"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/stay_awake" />
+
+    <Button
+        android:id="@id/btn_assistList"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/assist_list"
+        android:textAllCaps="false" />
+</LinearLayout>

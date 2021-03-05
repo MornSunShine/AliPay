@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">QuickCollect</string>
+    <string name="hello_user">Hello User!</string>
+    <string name="other_settings">其他配置</string>
+    <string name="receive_point">领取积分</string>
+    <string name="kb_sign_in">口碑签到</string>
+    <string name="collect_credit_feedback">芝麻信用•收芝麻</string>
+    <string name="zm_donate">芝麻信用•捐芝麻</string>
+    <string name="electric_sign_in"><![CDATA[攒电能•签到&收电能]]></string>
+    <string name="great_youth_receive">宝呗青年•收体验金</string>
+    <string name="open_treasure_box">运动•开箱</string>
+    <string name="donate_charity_coin">运动•捐币</string>
+    <string name="min_exchange_steps">最小捐步步数</string>
+    <string name="latest_exchange_time">最晚捐步时间(24小时制)</string>
+    <string name="hook_steps">运动修改步数(设置0时不修改)</string>
+    <string name="open_door_sign_in">开门打卡</string>
+    <string name="group_list">加群好友•群列表</string>
+    <string name="farm_settings">庄园配置</string>
+    <string name="basic_settings">基础配置</string>
+    <string name="immediate_effect">即时生效</string>
+    <string name="record_log">详细记录</string>
+    <string name="record_runtime_log">运行日志</string>
+    <string name="show_toast">气泡提示</string>
+    <string name="delete_stranger">清理单删</string>
+    <string name="small_settings">小号设置(小号登录不收能量)</string>
+    <string name="restart_locked_screen">超时重启•锁屏时</string>
+    <string name="restart_unlocked_screen">超时重启•解锁时</string>
+    <string name="pin">锁屏密码</string>
+    <string name="autoRestart">间隔30分钟重启支付宝服务</string>
+    <string name="send_broadcast">超时发送XposedEdge广播</string>
+    <string name="broadcast_content">XposedEdge广播内容</string>
+    <string name="original_mode">原版模式(运行异常尝试打开)</string>
+    <string name="stay_awake">保持唤醒(会增加耗电)</string>
+    <string name="enable_farm">开启庄园</string>
+    <string name="auto_feed">自动喂鸡</string>
+    <string name="use_accelerate_tool">用加速卡</string>
+    <string name="use_new_egg_tool">用新蛋卡</string>
+    <string name="harvest_produce">收取鸡蛋</string>
+    <string name="donate_eggs">捐赠鸡蛋</string>
+    <string name="drive_animal">自动赶鸡</string>
+    <string name="drive_type">赶鸡方式</string>
+    <string name="no_drive_list">自动赶鸡•黑名单</string>
+    <string name="reward_friend">打赏好友</string>
+    <string name="recall_type">召回方式</string>
+    <string name="help_feed_list">帮喂小鸡•名单</string>
+    <string name="notify_drive">通知赶鸡</string>
+    <string name="no_notify_drive">通知赶鸡•黑名单</string>
+    <string name="collect_wheat">收麦子</string>
+    <string name="plant_list">种麦子•名单</string>
+    <string name="answer_question">课堂答题</string>
+    <string name="start_game_high_score">星星球改分</string>
+    <string name="jump_game_high_score">登山赛改分</string>
+    <string name="play_farm_game">自动游戏</string>
+    <string name="receive_farm_tool">领道具卡</string>
+    <string name="receive_farm_task_award">领取奖励</string>
+    <string name="collect_manure">收鸡屎</string>
+    <string name="hire_animal">雇佣小鸡生产鸡屎</string>
+    <string name="trigger_bb_task">芭芭农场签到</string>
+    <string name="bb_fertilization">芭芭农场施肥</string>
+    <string name="forest_settings">森林配置</string>
+    <string name="collect_energy">收取能量</string>
+    <string name="no_collect_list">收取能量•黑名单</string>
+    <string name="check_interval">检测间隔(分钟)</string>
+    <string name="advance_time">提前蹲守(毫秒)</string>
+    <string name="collect_interval">收取间隔(毫秒)</string>
+    <string name="collect_timeout">收取超时(秒)</string>
+    <string name="collect_gold">收取金球</string>
+    <string name="return_water_30">偷X克返水30克</string>
+    <string name="return_water_20">偷X克返水20克</string>
+    <string name="return_water_10">偷X克返水10克</string>
+    <string name="help_collect">帮收能量</string>
+    <string name="delay_help_collect">延迟帮收</string>
+    <string name="no_help_collect_list">帮收能量•黑名单</string>
+    <string name="help_collect_gold">帮收金球</string>
+    <string name="cooperate_water">合种浇水</string>
+    <string name="cooperate_list">合种浇水•列表</string>
+    <string name="help_water_list">好友浇水•名单</string>
+    <string name="collect_packet">红包浇水</string>
+    <string name="receive_forest_award">领取奖励</string>
+    <string name="thread_count">收取线程</string>
+    <string name="more">更多</string>
+    <string name="donation_developer">支持xqe开源项目作者</string>
+    <string name="support">支持秋风</string>
+    <string name="download">下载秋风</string>
+    <string name="about">关于</string>
+    <string name="assist_list">互助列表(暂支持能量雨互助，将大号小号都添加到列表，切换登录列表中的账号，即可自动互助)</string>
+    <string name="energy_rain">收能量雨</string>
+    <string name="energy_double_click_duration">使用双击卡时间段(举例0000-0002,0700-0730表示00:00-00:02和07:00-07:30这两个时间段内会自动使用双击卡)</string>
+    <string name="protect_bubble_type">提醒收取•模式</string>
+    <string name="protect_bubble_list">提醒收取•(黑/白)名单</string>
+    <string name="update_history">
+        稳定挂机推荐设置：\n
+        1.超时重启锁屏时、解锁时都设置为非root方式，并给予相关权限\n
+        2.勾选间隔30分钟重启支付宝服务\n
+        3.打开支付宝商家服务的收钱到账语音提醒，并开启增强语音模式\n\n
+        注意：非root方式的超时重启会导致不解锁也能操作支付宝！！！\n\n
+        秋风2.5.5：\n1.增加能量雨互助，在【基本配置】>【互助列表】中把大号小号都添加进去，切换登录列表中的账号，即可自动互助\n\n
+        秋风2.5.4：\n1.增加提醒好友收取即将消失的能量\n\n
+        秋风2.5.3：\n1.增加在指定的时间段自动使用能量双击卡\n\n
+        秋风2.5.2：\n1.增加自动收能量雨\n\n
+        秋风2.5.1：\n1.修复森林任务领取奖励\n\n
+        秋风2.5：\n1.修复庄园小课堂答题\n\n
+        秋风2.4.2：\n1.优化刷步\n2.修复雇佣小鸡，修复芭芭农场签到\n\n
+        秋风2.4：\n
+        1.提高稳定，降低耗电\n
+        2.增加运动修改步数\n
+        3.增加雇佣小鸡生产鸡屎\n
+        4.增加每日领取肥料\n
+        5.增加收金蛋\n
+        6.修复收鸡屎\n\n
+        秋风2.3：\n
+        1.增加开门打卡，降低收鸡屎频率\n\n
+        秋风2.2：\n
+        1.锁屏解锁操作后不再将支付宝切到后台\n
+        2.30分钟重启服务不再气泡提示加载成功\n
+        3.增加收鸡屎、芭芭农场签到、芭芭农场施肥\n\n
+        秋风2.1：\n
+        1.修复30分钟重启支付宝服务后，没有设置为前台服务\n
+        2.优化服务被销毁后的重启\n\n
+        秋风2.0更新：\n
+        1.增加非root方式锁屏重启，需要给予支付宝和秋风[自启动、锁屏显示、后台弹出界面]权限\n
+        2.增加间隔30分钟重启支付宝服务\n
+        3.优化森林收能量，更快更准\n
+        4.增加小号名单设置，小号不收能量\n
+        5.增加延迟帮收开关，延迟帮收的能量可以收多一次\n
+        6.增加浇水拿红包\n
+        7.优化好友分析\n
+        8.增加微信捐赠途径，豪气的朋友可以请秋风喝罐可乐;
+    </string>
+    <string name="inactive">模块未激活</string>
+    <string name="forest_log">森林记录</string>
+    <string name="farm_log">庄园记录</string>
+    <string name="other_log">其他记录</string>
+    <string name="friend_log">好友记录</string>
+    <string name="friend_analysis">好友分析</string>
+    <string name="help">查看帮助</string>
+    <string name="pre">上一个</string>
+    <string name="next">下一个</string>
+    <string name="input_search">输入查找</string>
+    <string name="day_collection">日收</string>
+    <string name="week_collection">周收</string>
+    <string name="sum_collection">总收</string>
+    <string name="week">周</string>
+    <string name="sum">总</string>
+</resources>

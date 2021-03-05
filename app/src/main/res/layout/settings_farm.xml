@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/settings_title_bg"
+        android:text="@string/farm_settings"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/settings_title_text_color" />
+
+    <CheckBox
+        android:id="@id/cb_enableFarm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/enable_farm" />
+
+    <CheckBox
+        android:id="@id/cb_autoFeed"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/auto_feed" />
+
+    <CheckBox
+        android:id="@id/cb_useAccelerateTool"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/use_accelerate_tool" />
+
+    <CheckBox
+        android:id="@id/cb_useNewEggTool"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/use_new_egg_tool" />
+
+    <CheckBox
+        android:id="@id/cb_harvestProduce"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/harvest_produce" />
+
+    <CheckBox
+        android:id="@id/cb_donate_eggs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/donate_eggs" />
+
+    <CheckBox
+        android:id="@id/cb_driveAnimal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/drive_animal" />
+
+    <Button
+        android:id="@id/btn_driveType"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/drive_type"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@id/btn_noDriveList"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/no_drive_list"
+        android:textAllCaps="false" />
+
+    <CheckBox
+        android:id="@id/cb_rewardFriend"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/reward_friend" />
+
+    <Button
+        android:id="@id/btn_recallType"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/recall_type"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@id/btn_helpFeedList"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/help_feed_list"
+        android:textAllCaps="false" />
+
+    <CheckBox
+        android:id="@id/cb_notifyDrive"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/notify_drive" />
+
+    <Button
+        android:id="@id/btn_noNotifyList"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/no_notify_drive"
+        android:textAllCaps="false" />
+
+    <CheckBox
+        android:id="@id/cb_collectWheat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/collect_wheat" />
+
+    <Button
+        android:id="@id/btn_plantList"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/plant_list"
+        android:textAllCaps="false" />
+
+    <CheckBox
+        android:id="@id/cb_answerQuestion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/answer_question" />
+
+    <CheckBox
+        android:id="@id/cb_starGameHighScore"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/start_game_high_score" />
+
+    <CheckBox
+        android:id="@id/cb_jumpGameHighScore"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/jump_game_high_score" />
+
+    <CheckBox
+        android:id="@id/cb_playFarmGame"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/play_farm_game" />
+
+    <CheckBox
+        android:id="@id/cb_receiveFarmTool"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/receive_farm_tool" />
+
+    <CheckBox
+        android:id="@id/cb_receiveFarmTaskAward"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/receive_farm_task_award" />
+
+    <CheckBox
+        android:id="@id/cb_collectManure"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/collect_manure" />
+
+    <CheckBox
+        android:id="@id/cb_hireAnimal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/hire_animal" />
+
+    <CheckBox
+        android:id="@id/cb_triggerBbTask"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/trigger_bb_task" />
+
+    <CheckBox
+        android:id="@id/cb_bbFertilization"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/bb_fertilization" />
+</LinearLayout>

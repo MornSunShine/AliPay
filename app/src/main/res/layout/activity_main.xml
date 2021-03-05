@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <TextView
+        android:id="@id/tv_inactive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inactive"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffff0000" />
+
+    <TextView
+        android:id="@id/tv_statistics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingMultiplier="1.05"
+        android:paddingTop="5.0dip"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#ff404040" />
+
+    <TextView
+        android:id="@id/tv_questionHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.0dip"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:paddingStart="12.0dip"
+        android:paddingRight="12.0dip"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#ff000000" />
+
+    <Button
+        android:id="@id/btn_forest_log"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:onClick="onClick"
+        android:text="@string/forest_log"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@id/btn_farm_log"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:onClick="onClick"
+        android:text="@string/farm_log"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@id/btn_other_log"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:onClick="onClick"
+        android:text="@string/other_log"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@id/btn_friend_log"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:onClick="onClick"
+        android:text="@string/friend_log"
+        android:textAllCaps="false"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@id/btn_rank"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:onClick="onClick"
+        android:text="@string/friend_analysis"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@id/btn_view_help"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:onClick="onClick"
+        android:text="@string/help"
+        android:textAllCaps="false" />
+</LinearLayout>

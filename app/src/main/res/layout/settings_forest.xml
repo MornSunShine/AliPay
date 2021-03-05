@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/settings_title_bg"
+        android:text="@string/forest_settings"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/settings_title_text_color" />
+
+    <CheckBox
+        android:id="@id/cb_collectEnergy"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/collect_energy" />
+
+    <Button
+        android:id="@id/btn_noCollectList"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/no_collect_list"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@id/btn_checkInterval"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/check_interval"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@id/btn_advanceTime"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/advance_time"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@id/btn_collectInterval"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/collect_interval"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@id/btn_collectTimeout"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/collect_timeout"
+        android:textAllCaps="false" />
+
+    <CheckBox
+        android:id="@id/cb_collectGold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/collect_gold" />
+
+    <Button
+        android:id="@id/btn_returnWater30"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/return_water_30"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@id/btn_returnWater20"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/return_water_20"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@id/btn_returnWater10"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/return_water_10"
+        android:textAllCaps="false" />
+
+    <CheckBox
+        android:id="@id/cb_helpCollect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/help_collect" />
+
+    <CheckBox
+        android:id="@id/cb_delayHelpCollect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/delay_help_collect" />
+
+    <Button
+        android:id="@id/btn_noHelpCollectList"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/no_help_collect_list"
+        android:textAllCaps="false" />
+
+    <CheckBox
+        android:id="@id/cb_helpCollectGold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/help_collect_gold" />
+
+    <CheckBox
+        android:id="@id/cb_cooperateWater"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/cooperate_water" />
+
+    <Button
+        android:id="@id/btn_cooperateList"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/cooperate_list"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@id/btn_helpWaterList"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/help_water_list"
+        android:textAllCaps="false" />
+
+    <CheckBox
+        android:id="@id/cb_collectPacket"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/collect_packet" />
+
+    <CheckBox
+        android:id="@id/cb_receiveForestAward"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/receive_forest_award" />
+
+    <Button
+        android:id="@id/btn_threadCount"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/thread_count"
+        android:textAllCaps="false"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@id/cb_energyRain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/energy_rain" />
+
+    <Button
+        android:id="@id/btn_protectBubbleType"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/protect_bubble_type"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@id/btn_protectBubbleList"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/protect_bubble_list"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@id/btn_energyDoubleClickDuration"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/energy_double_click_duration"
+        android:textAllCaps="false" />
+</LinearLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/settings_title_bg"
+        android:text="@string/other_settings"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/settings_title_text_color" />
+
+    <CheckBox
+        android:id="@id/cb_receivePoint"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/receive_point" />
+
+    <CheckBox
+        android:id="@id/cb_kbSignIn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/kb_sign_in" />
+
+    <CheckBox
+        android:id="@id/cb_collectCreditFeedback"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/collect_credit_feedback" />
+
+    <CheckBox
+        android:id="@id/cb_zmDonate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/zm_donate" />
+
+    <CheckBox
+        android:id="@id/cb_electricSignIn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/electric_sign_in" />
+
+    <CheckBox
+        android:id="@id/cb_greatYouthReceive"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/great_youth_receive" />
+
+    <CheckBox
+        android:id="@id/cb_openTreasureBox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/open_treasure_box" />
+
+    <CheckBox
+        android:id="@id/cb_donateCharityCoin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/donate_charity_coin" />
+
+    <Button
+        android:id="@id/btn_minExchangeSteps"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/min_exchange_steps"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@id/btn_latestExchangeTime"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/latest_exchange_time"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@id/btn_hookStep"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/hook_steps"
+        android:textAllCaps="false" />
+
+    <CheckBox
+        android:id="@id/cb_openDoorSignIn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:text="@string/open_door_sign_in" />
+
+    <Button
+        android:id="@id/btn_groupList"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/group_list"
+        android:textAllCaps="false"
+        android:visibility="gone" />
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/settings_title_bg"
+        android:text="@string/more"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/settings_title_text_color" />
+
+    <Button
+        android:id="@id/btn_donationDeveloper"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/donation_developer"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@id/btn_donationQiufeng"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/support"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@id/btn_downloadQiufeng"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/download"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@id/btn_about"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center|start"
+        android:minHeight="@dimen/checkbox_min_height"
+        android:onClick="onClick"
+        android:paddingStart="@dimen/button_padding_start"
+        android:text="@string/about"
+        android:textAllCaps="false" />
+</LinearLayout>

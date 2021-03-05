@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@id/lv_list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:fastScrollEnabled="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@id/edt_find"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:hint="@string/input_search" />
+
+        <Button
+            android:id="@id/btn_find_last"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:minHeight="@dimen/checkbox_min_height"
+            android:padding="12.0dip"
+            android:text="@string/pre"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@id/btn_find_next"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:minHeight="@dimen/checkbox_min_height"
+            android:padding="12.0dip"
+            android:text="@string/next"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@id/btn_avg_collect"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:padding="12.0dip"
+            android:text="@string/day_collection"
+            android:layout_weight="1.0"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@id/btn_week_collect"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:padding="12.0dip"
+            android:text="@string/week_collection"
+            android:layout_weight="1.0"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@id/btn_sum_collect"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:padding="12.0dip"
+            android:text="@string/sum_collection"
+            android:layout_weight="1.0"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@id/btn_week"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:padding="12.0dip"
+            android:text="@string/week"
+            android:layout_weight="1.0"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@id/btn_sum"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:padding="12.0dip"
+            android:text="@string/sum"
+            android:layout_weight="1.0"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+
+</LinearLayout>
